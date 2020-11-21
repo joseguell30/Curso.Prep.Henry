@@ -4,7 +4,7 @@
 const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 1;
+const nuevoNum = 2;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -80,6 +80,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
+  
   if (str1.lenght === str2.lenght) {
     return true
   }
@@ -207,7 +208,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
 
-  return "hola " + nombre + "!"
+  return "Hola " + nombre + "!"
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
