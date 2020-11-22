@@ -47,7 +47,7 @@ function estaEnRango(numero) {
   if ( 20 < numero < 50 ) {
     return true;
   }
-  else () {
+  else  {
     return false;
   }
 }
@@ -79,7 +79,7 @@ function fizzBuzz(numero) {
   if ( numero % 3 && 5 === 0 ) {
     return "fizzbuzz";
   }
-  else () {
+  else {
     return numero;
   }
 }
