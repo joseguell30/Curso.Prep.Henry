@@ -44,12 +44,7 @@ function estaEnRango(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  if ( 20 < numero < 50 ) {
-    return true;
-  }
-  else  {
-    return false;
-  }
+  return numero < 50 && numero > 20;
 }
 
 function esEntero(numero) {
@@ -70,18 +65,10 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
 
-  if ( numero % 3 === 0 ) {
-    return "fizz";
-  }
-  if ( numero % 5 === 0 ) {
-    return "buzz";
-  }
-  if ( numero % 3 && 5 === 0 ) {
-    return "fizzbuzz";
-  }
-  else {
-    return numero;
-  }
+  if(numero % 15 === 0) return 'fizzbuzz';
+  if(numero % 3 === 0) return 'fizz';
+  if(numero % 5 === 0) return 'buzz';
+  return numero;
 }
 
 function esPrimo(numero) {
