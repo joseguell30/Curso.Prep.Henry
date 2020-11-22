@@ -26,9 +26,9 @@ function saludo(idioma) {
     return "Ni Hao!";
   } else if ( idioma === "ingles" ) {
     return "Hello!";
-  } else () {
-    return "Hola!"
-   }
+  } else {
+    return "Hola!";
+  }
 }
 
 function esDiezOCinco(numero) {
